@@ -1,0 +1,108 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*utilizando margem como shorthand*/
+    margin-top: 200px;
+    margin-right: 70px;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    border-style: solid;
+    border-width: 10px;
+    /*padding-left: 20px;
+    padding-right: 30px ;
+    padding-bottom: 10px;
+    padding-top: 20px;*/
+    padding: 50px 20px; /*atalho para definir respectivamente preenchimento com 50px acima e 20px direita e esquerda*/
+    
+}
+div{
+    border:solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(236, 32, 32, 0.306);
+
+}
+
+.box1{
+    background-color: rgb(236, 175, 32);
+    width: 400px;
+    height: 50px;
+    position:static;
+    top: 500px;
+    right: 500px;
+}
+.box2{
+    background-color: rgba(192, 236, 32, 0.894);
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 400px;
+    left: 50px;
+}
+
+.box3{
+    background-color: rgba(144, 236, 32, 0.711);
+    width: 400px;
+    height: 50px;
+    position: absolute;
+    bottom: 1000px;
+    right: 1000px;
+    top: 1000px;
+}
+.box4{
+    background-color: rgba(32, 236, 229, 0.614);
+    width: 400px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 0px;
+}
+.box5{
+    background-color: rgba(32, 69, 236, 0.443);
+    width: 400px;
+    height: 50px;
+    position: sticky;
+    bottom: 200px;
+    left: 150px;
+}
+.layer1{
+    background-color: rgba(32, 195, 236, 0.534);
+    width: 400px;
+    height: 50px;
+}
+.layer2{
+    background-color: rgba(32, 195, 236, 0.902);
+    width: 400px;
+    height: 50px;
+}
+
+
+h1{
+    background-color:tomato;
+    color:aliceblue;
+    font-size:90px;
+    text-align: center;
+    text-shadow: rgb(7, 7, 7) 3px 2px 0px;
+    border-style:dotted;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: rgb(0, 0, 0);
+
+    
+}
+h2{
+  text-shadow: rgb(7, 7, 7) 3px 2px 1px;
+  color: rgb(206, 94, 13);
+  font-size:30px;
+  padding: 20px;
+  
+}
+span{
+    background-color: tomato;
+    color: white;
+    display: block;
+}
+p{
+    background-color: tomato;
+    color: white;
+    display: inline;/*altera a propriedade de block-level para inline*/
+}
