@@ -1,0 +1,70 @@
+
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    border: 3px rgba(0, 0, 0, 0.927);
+    margin: 1px;
+    padding: 1px;
+    padding-bottom: 800px;
+
+}
+.cabecalho{
+    background-color: rgb(253, 253, 253);
+    border: 3px solid ;
+    margin: 0px;
+    padding-right: 997px;
+    position: fixed;
+}
+.logo{
+    border: 3px ;
+    margin: 1px;
+    padding-left: 100px;
+    margin-right: 700px;
+
+}
+.outros{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px;
+    margin: 0px;
+    position: fixed;
+    width: 300px;
+    height: 30px;
+    top: 55px;
+    left: 1500px;
+    font-size:large;
+    
+}
+.imagem{
+    text-align: center;
+    border: 3px ;
+    margin: 0px;
+    margin-top: 90px;
+    background-color: rgba(31, 146, 75, 0.623);
+}
+.corpo{
+    margin: 1px;
+    border: 3px ;
+    margin-top: 90px;
+    padding: 40px;
+}
+.direito{
+    text-align: center;
+    margin: 1px;
+    border: 3px ;
+}
+.texto-sobre{
+    margin: 1px;
+    border: 3px ;
+    margin-top: 90px;
+    padding: 40px;
+    font-size: larger;
+    background-color: rgba(31, 146, 75, 0.623);
+}
+.texto-contato{
+    margin: 1px;
+    border: 3px ;
+    margin-top: 90px;
+    padding: 40px;
+    font-size: larger;
+    background-color: rgba(31, 146, 75, 0.623);
+}
