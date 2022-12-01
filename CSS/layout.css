@@ -66,13 +66,15 @@ header{
     background-color: #181f1b;
     display: flex;
     justify-content: center;
+
 }
+
 .terceira_parte img{
     display: flex;
     border-radius: 20px;
     background-color: white;
     border: solid black 7px;
-
+    transition-duration: 0.3s;
 }
 .card_pg {
     display: flex;
@@ -81,6 +83,7 @@ header{
     background-color: #181f1b;
     gap: 80px;
     width: 70%;
+    
 }
 
 .card_tam img{
@@ -89,8 +92,8 @@ header{
 .card_tam{
     display: flex;
     justify-content: space-around;
+    
 }
 .card_tam img:hover{
     transform: scale(1.1);
-    transition: 0.5s;
 }
