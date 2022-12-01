@@ -35,12 +35,11 @@ header{
 .cabecalho_navegação a:hover{
     color: black;
     background-color:#e32936;
-    border-radius: 5px;
+    border-radius: 8%;
+    transition-duration: 0.3s;
     
 }
-.cabe{
-    border-bottom: solid black 5px;
-}
+
 .logo img{
     width: 100%;
 }
@@ -71,9 +70,8 @@ header{
 
 .terceira_parte img{
     display: flex;
-    border-radius: 20px;
+    border-radius: 8%;
     background-color: white;
-    border: solid black 7px;
     transition-duration: 0.3s;
 }
 .card_pg {
